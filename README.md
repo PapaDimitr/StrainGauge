@@ -1,4 +1,4 @@
-# Strain Gauge Code for Custom Strain Gauge Board
+# Strain Gauge Code for Custom Board
 
 - This is the code for the Strain Gauge PCB version 25.0
 
