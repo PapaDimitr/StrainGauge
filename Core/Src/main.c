@@ -58,6 +58,7 @@ uint32_t adc_dma_buffer;
 //Initial setup of the CAN communication protocol
 //I configured it to be send only for the moment
 CAN_TxHeaderTypeDef TxHeader = {
+								  .StdId = /*..Not known yet*/,
                                   .IDE = CAN_ID_STD, 
                                   .RTR = CAN_RTR_DATA, 
                                   .DLC = 4, 
